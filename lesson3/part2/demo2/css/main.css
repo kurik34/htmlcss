@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.high{
+    width: 100%;
+    background: blue;
+    height: 300px;
+    position: relative;
+}
+.low{
+    background: yellow;
+    height: 400px;
+}
+.target{
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+

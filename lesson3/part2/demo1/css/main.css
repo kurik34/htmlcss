@@ -1,0 +1,23 @@
+html,body{
+    scroll-behavior: smooth;/*povilne peremischenna*/
+}
+.up{
+    width: 50px;
+    height: 50px;
+
+    /*display: flex;*/ /*vurivnuvanna teksty po zentry
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+
+    position: fixed;
+    bottom:100px;
+    right:100px;
+
+    background: green;
+    color: white;
+    border-radius: 50%;
+}

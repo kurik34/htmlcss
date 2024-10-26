@@ -1,0 +1,19 @@
+/*ul a, span {*/
+/*    color: blue;*/
+/*}*/
+/*#uniq{*/
+/*    background: red;*/
+/*}*/
+/*.target{*/
+/*    background: silver;*/
+/*}*/
+/*li:nth-child(3n+2){!*even -parni, odd - ne parni* 3n - kozen tretiy 4n- kozen chetvertuy*!*/
+/*    color: red;*/
+/*}*/
+ul:nth-child(2n)>li:nth-child(odd){
+    background: silver;
+}
+li:hover{ /*zminue kolir pru navedeni*/
+    background: green;
+    transition: 0.3s;/*truvalist zminu*/
+}
