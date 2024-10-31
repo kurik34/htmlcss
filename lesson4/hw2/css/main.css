@@ -1,0 +1,122 @@
+.wrap{
+    margin: 5px;
+    width: 100%;
+    height: 700px;
+    background: silver;
+}
+.a{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background: green;
+    /*border: 3px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+.container1{
+    width: 80%;
+    height: 600px;
+    background: gold;
+    font-size: 50px;
+    /*border: 3px solid red;*/
+    padding: 5px;
+
+
+}
+.box {
+    width: 100%;
+    height: 300px;
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.shell{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 3px solid black;*/
+    padding-top: 5px;
+}
+.box1{
+    width: 33.3%;
+    height: 300px;
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 33.3%;
+    height: 300px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box3{
+    width: 33.3%;
+    height: 300px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 20%;
+    height: 600px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: 600px;
+
+        .container1 {
+            width: 100%;
+        }
+
+        .a {
+            width: 100%;
+            height: 20%;
+        }
+
+        .box {
+            width: 100%;
+            height: 40%;
+        }
+
+        .shell {
+            width: 100%;
+            margin-bottom: 5px;
+
+        }
+
+        .box4 {
+            width: 100%;
+            height: 18%;
+            margin-top: 5px;
+        }
+
+
+    }
+}
