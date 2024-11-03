@@ -1,0 +1,18 @@
+p.target{
+    background: silver;
+    color: #f31355;
+}
+.point{
+    font-size: 50px;
+}
+#xxx{
+    background: green;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: red;
+    background: gold;
+}
