@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+.target{
+    background: silver;
+    width: 100px;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+

@@ -1,0 +1,33 @@
+.xxx{
+    background: gray;
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    justify-content:flex-start;/*vurfivnue po centry po osi x*/
+    align-items:flex-start;/*vurfivnue po centry po osi y*/
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+    /*column-gap:20px;*/
+
+}
+.box{
+    flex-basis: 400px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a{
+    background: silver;
+    flex-grow: 1;/*kilkist sehmentiv jaky byde viddano elementy*/
+    /*flex-shrink: 1;!*shrink ce stuskanna*!*/
+}
+.b{
+    background: cornflowerblue;
+    flex-grow: 1;
+    /*align-self: center;*/
+    /*flex-shrink: 2;*/
+
+}
+/*.c{*/
+/*    align-self:flex-end;*/
+/*}*/
