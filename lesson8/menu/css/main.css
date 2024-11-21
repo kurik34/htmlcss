@@ -1,0 +1,131 @@
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    height: 100vh;
+    background: url("../image/hero.png") no-repeat center/cover;
+}
+.header__top{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    column-gap: 23px;
+}
+.nav__item a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    column-gap: 35px;
+
+}
+.header__phone{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    width: 155px;
+    color: #FFFFFF;
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+}
+.header__contact{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+.header__button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    width: 165px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    height: 50px;
+    background: #FF7400;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    padding: 0;
+
+}
+.header__title{
+    font-weight: normal;
+    color: #FF7400;
+    margin-top: 203px;
+    max-width: 700px;
+}
+.header__title h2{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 0;
+    margin-left: 170px;
+}
+.header__title h1{
+    font-size: 65px;
+    line-height: 82px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.header__title p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    display: flex;
+    margin-left: 170px;
+    align-items: center;
+}
+.header__title p::before,
+.header__title p::after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+.header__title p::before{
+    margin-right: 10px;
+}
+.header__title p::after{
+    margin-left: 10px;
+}
+
+.header__title button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    width: 165px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    height: 50px;
+    background: #FF7400;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    margin-left: 235px;
+}
+.nav__btn_mobile{
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.nav__btn_mobile div{
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}

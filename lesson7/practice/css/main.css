@@ -159,8 +159,8 @@ h2{
     font-weight: 700;
 }
 .nav__button{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     background-color: var(--aqua);
     right: 20px;

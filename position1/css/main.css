@@ -1,0 +1,21 @@
+.father{
+    width: 800px;
+    height: 400px;
+    background: silver;
+    position: relative;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background:cornflowerblue;
+    position: absolute;
+    bottom:-100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+
+}
